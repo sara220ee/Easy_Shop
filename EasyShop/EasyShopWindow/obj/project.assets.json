@@ -1,0 +1,202 @@
+{
+  "version": 3,
+  "targets": {
+    "net9.0-windows7.0": {
+      "Newtonsoft.Json/13.0.3": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/Newtonsoft.Json.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/Newtonsoft.Json.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "AppParamRegistry/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v9.0",
+        "dependencies": {
+          "ClassShop": "1.0.0",
+          "DataPersistence": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/AppParamRegistry.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/AppParamRegistry.dll": {}
+        }
+      },
+      "ClassShop/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v9.0",
+        "compile": {
+          "bin/placeholder/ClassShop.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ClassShop.dll": {}
+        }
+      },
+      "DataPersistence/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v9.0",
+        "dependencies": {
+          "ClassShop": "1.0.0",
+          "Newtonsoft.Json": "13.0.3"
+        },
+        "compile": {
+          "bin/placeholder/DataPersistence.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/DataPersistence.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Newtonsoft.Json/13.0.3": {
+      "sha512": "HrC5BXdl00IP9zeV+0Z848QWPAoCr9P3bDEZguI+gkLcBKAOxix/tLEAAHC+UvDNPv4a2d18lOReHMOagPa+zQ==",
+      "type": "package",
+      "path": "newtonsoft.json/13.0.3",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.md",
+        "README.md",
+        "lib/net20/Newtonsoft.Json.dll",
+        "lib/net20/Newtonsoft.Json.xml",
+        "lib/net35/Newtonsoft.Json.dll",
+        "lib/net35/Newtonsoft.Json.xml",
+        "lib/net40/Newtonsoft.Json.dll",
+        "lib/net40/Newtonsoft.Json.xml",
+        "lib/net45/Newtonsoft.Json.dll",
+        "lib/net45/Newtonsoft.Json.xml",
+        "lib/net6.0/Newtonsoft.Json.dll",
+        "lib/net6.0/Newtonsoft.Json.xml",
+        "lib/netstandard1.0/Newtonsoft.Json.dll",
+        "lib/netstandard1.0/Newtonsoft.Json.xml",
+        "lib/netstandard1.3/Newtonsoft.Json.dll",
+        "lib/netstandard1.3/Newtonsoft.Json.xml",
+        "lib/netstandard2.0/Newtonsoft.Json.dll",
+        "lib/netstandard2.0/Newtonsoft.Json.xml",
+        "newtonsoft.json.13.0.3.nupkg.sha512",
+        "newtonsoft.json.nuspec",
+        "packageIcon.png"
+      ]
+    },
+    "AppParamRegistry/1.0.0": {
+      "type": "project",
+      "path": "../AppParamRegistry/AppParamRegistry.csproj",
+      "msbuildProject": "../AppParamRegistry/AppParamRegistry.csproj"
+    },
+    "ClassShop/1.0.0": {
+      "type": "project",
+      "path": "../ClassShop/ClassShop.csproj",
+      "msbuildProject": "../ClassShop/ClassShop.csproj"
+    },
+    "DataPersistence/1.0.0": {
+      "type": "project",
+      "path": "../DataPersistence/DataPersistence.csproj",
+      "msbuildProject": "../DataPersistence/DataPersistence.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net9.0-windows7.0": [
+      "AppParamRegistry >= 1.0.0",
+      "ClassShop >= 1.0.0",
+      "DataPersistence >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\sarar\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\sarar\\Downloads\\C#\\c#\\EasyShop\\EasyShopWindow\\EasyShopWindow.csproj",
+      "projectName": "EasyShopWindow",
+      "projectPath": "C:\\Users\\sarar\\Downloads\\C#\\c#\\EasyShop\\EasyShopWindow\\EasyShopWindow.csproj",
+      "packagesPath": "C:\\Users\\sarar\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\sarar\\Downloads\\C#\\c#\\EasyShop\\EasyShopWindow\\obj\\",
+      "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
+      "configFilePaths": [
+        "C:\\Users\\sarar\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net9.0-windows"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net9.0-windows7.0": {
+          "targetAlias": "net9.0-windows",
+          "projectReferences": {
+            "C:\\Users\\sarar\\Downloads\\C#\\c#\\EasyShop\\AppParamRegistry\\AppParamRegistry.csproj": {
+              "projectPath": "C:\\Users\\sarar\\Downloads\\C#\\c#\\EasyShop\\AppParamRegistry\\AppParamRegistry.csproj"
+            },
+            "C:\\Users\\sarar\\Downloads\\C#\\c#\\EasyShop\\ClassShop\\ClassShop.csproj": {
+              "projectPath": "C:\\Users\\sarar\\Downloads\\C#\\c#\\EasyShop\\ClassShop\\ClassShop.csproj"
+            },
+            "C:\\Users\\sarar\\Downloads\\C#\\c#\\EasyShop\\DataPersistence\\DataPersistence.csproj": {
+              "projectPath": "C:\\Users\\sarar\\Downloads\\C#\\c#\\EasyShop\\DataPersistence\\DataPersistence.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
+      },
+      "SdkAnalysisLevel": "9.0.100"
+    },
+    "frameworks": {
+      "net9.0-windows7.0": {
+        "targetAlias": "net9.0-windows",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          },
+          "Microsoft.WindowsDesktop.App.WPF": {
+            "privateAssets": "none"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.102/PortableRuntimeIdentifierGraph.json"
+      }
+    }
+  },
+  "logs": [
+    {
+      "code": "NU1900",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Une erreur s’est produite lors de l’obtention des données de vulnérabilité du package : Impossible de charger l'index de service pour la source https://api.nuget.org/v3/index.json."
+    }
+  ]
+}

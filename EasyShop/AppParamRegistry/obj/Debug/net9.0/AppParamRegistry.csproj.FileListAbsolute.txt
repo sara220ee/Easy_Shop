@@ -1,0 +1,17 @@
+C:\Users\sarar\Downloads\C#\c#\EasyShop\AppParamRegistry\bin\Debug\net9.0\AppParamRegistry.deps.json
+C:\Users\sarar\Downloads\C#\c#\EasyShop\AppParamRegistry\bin\Debug\net9.0\AppParamRegistry.dll
+C:\Users\sarar\Downloads\C#\c#\EasyShop\AppParamRegistry\bin\Debug\net9.0\AppParamRegistry.pdb
+C:\Users\sarar\Downloads\C#\c#\EasyShop\AppParamRegistry\bin\Debug\net9.0\ClassShop.dll
+C:\Users\sarar\Downloads\C#\c#\EasyShop\AppParamRegistry\bin\Debug\net9.0\DataPersistence.dll
+C:\Users\sarar\Downloads\C#\c#\EasyShop\AppParamRegistry\bin\Debug\net9.0\ClassShop.pdb
+C:\Users\sarar\Downloads\C#\c#\EasyShop\AppParamRegistry\bin\Debug\net9.0\DataPersistence.pdb
+C:\Users\sarar\Downloads\C#\c#\EasyShop\AppParamRegistry\obj\Debug\net9.0\AppParamRegistry.csproj.AssemblyReference.cache
+C:\Users\sarar\Downloads\C#\c#\EasyShop\AppParamRegistry\obj\Debug\net9.0\AppParamRegistry.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\sarar\Downloads\C#\c#\EasyShop\AppParamRegistry\obj\Debug\net9.0\AppParamRegistry.AssemblyInfoInputs.cache
+C:\Users\sarar\Downloads\C#\c#\EasyShop\AppParamRegistry\obj\Debug\net9.0\AppParamRegistry.AssemblyInfo.cs
+C:\Users\sarar\Downloads\C#\c#\EasyShop\AppParamRegistry\obj\Debug\net9.0\AppParamRegistry.csproj.CoreCompileInputs.cache
+C:\Users\sarar\Downloads\C#\c#\EasyShop\AppParamRegistry\obj\Debug\net9.0\AppParam.B3038D23.Up2Date
+C:\Users\sarar\Downloads\C#\c#\EasyShop\AppParamRegistry\obj\Debug\net9.0\AppParamRegistry.dll
+C:\Users\sarar\Downloads\C#\c#\EasyShop\AppParamRegistry\obj\Debug\net9.0\refint\AppParamRegistry.dll
+C:\Users\sarar\Downloads\C#\c#\EasyShop\AppParamRegistry\obj\Debug\net9.0\AppParamRegistry.pdb
+C:\Users\sarar\Downloads\C#\c#\EasyShop\AppParamRegistry\obj\Debug\net9.0\ref\AppParamRegistry.dll

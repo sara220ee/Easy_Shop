@@ -1,0 +1,35 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net9.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\AppParamRegistry\AppParamRegistry.csproj" />
+    <ProjectReference Include="..\ClassShop\ClassShop.csproj" />
+    <ProjectReference Include="..\DataPersistence\DataPersistence.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Update="StockToTextConverter.cs">
+      <CustomToolNamespace>EasyShopWindow</CustomToolNamespace>
+    </Compile>
+    <Compile Update="StockToVisibilityConverter.cs">
+      <CustomToolNamespace>EasyShopWindow</CustomToolNamespace>
+    </Compile>
+    <Compile Update="MainWindow.xaml.cs">
+      <CustomToolNamespace>EasyShopWindow</CustomToolNamespace>
+    </Compile>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Page Update="MainWindow.xaml">
+      <CustomToolNamespace>EasyShopWindow</CustomToolNamespace>
+    </Page>
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,130 @@
+[
+  {
+    "imagePath": "C:\\\\Users\\\\sarar\\\\Downloads\\\\C#\\\\c#\\\\EasyShop\\\\images\\\\Montre.jpg",
+    "categoryProduct": {
+      "Id": 2,
+      "NameCat": "Montre"
+    },
+    "Id": 6,
+    "Name": "MontreOR",
+    "Price": 150.0,
+    "ImagePath": "C:\\\\Users\\\\sarar\\\\Downloads\\\\C#\\\\c#\\\\EasyShop\\\\images\\\\Montre.jpg",
+    "Quantity": 115,
+    "CategoryProduct": {
+      "Id": 2,
+      "NameCat": "Montre"
+    }
+  },
+  {
+    "imagePath": "C:\\\\Users\\\\sarar\\\\Downloads\\\\C#\\\\c#\\\\EasyShop\\\\images\\\\Montre.jpg",
+    "categoryProduct": {
+      "Id": 2,
+      "NameCat": "Montre"
+    },
+    "Id": 19,
+    "Name": "MontreER",
+    "Price": 30.0,
+    "ImagePath": "C:\\\\Users\\\\sarar\\\\Downloads\\\\C#\\\\c#\\\\EasyShop\\\\images\\\\Montre.jpg",
+    "Quantity": 0,
+    "CategoryProduct": {
+      "Id": 2,
+      "NameCat": "Montre"
+    }
+  },
+  {
+    "imagePath": "C:\\\\Users\\\\sarar\\\\Downloads\\\\C#\\\\c#\\\\EasyShop\\\\images\\\\Jupe.jpg",
+    "categoryProduct": {
+      "Id": 9,
+      "NameCat": "T-shirt"
+    },
+    "Id": 21,
+    "Name": "T-shirtBleu",
+    "Price": 50.0,
+    "ImagePath": "C:\\\\Users\\\\sarar\\\\Downloads\\\\C#\\\\c#\\\\EasyShop\\\\images\\\\Jupe.jpg",
+    "Quantity": 0,
+    "CategoryProduct": {
+      "Id": 9,
+      "NameCat": "T-shirt"
+    }
+  },
+  {
+    "imagePath": "C:\\\\Users\\\\sarar\\\\Downloads\\\\C#\\\\c#\\\\EasyShop\\\\images\\\\Jupe2.jpg",
+    "categoryProduct": {
+      "Id": 6,
+      "NameCat": "Veste"
+    },
+    "Id": 22,
+    "Name": "VesteNoire",
+    "Price": 60.0,
+    "ImagePath": "C:\\\\Users\\\\sarar\\\\Downloads\\\\C#\\\\c#\\\\EasyShop\\\\images\\\\Jupe2.jpg",
+    "Quantity": 4,
+    "CategoryProduct": {
+      "Id": 6,
+      "NameCat": "Veste"
+    }
+  },
+  {
+    "imagePath": "C:\\\\Users\\\\sarar\\\\Downloads\\\\C#\\\\c#\\\\EasyShop\\\\images\\\\Montre.jpg",
+    "categoryProduct": {
+      "Id": 5,
+      "NameCat": "Bijoux"
+    },
+    "Id": 23,
+    "Name": "MontreGold",
+    "Price": 90.0,
+    "ImagePath": "C:\\\\Users\\\\sarar\\\\Downloads\\\\C#\\\\c#\\\\EasyShop\\\\images\\\\Montre.jpg",
+    "Quantity": 3,
+    "CategoryProduct": {
+      "Id": 5,
+      "NameCat": "Bijoux"
+    }
+  },
+  {
+    "imagePath": "C:\\\\Users\\\\sarar\\\\Downloads\\\\C#\\\\c#\\\\EasyShop\\\\images\\\\Sandales.jpg",
+    "categoryProduct": {
+      "Id": 10,
+      "NameCat": "Sandales"
+    },
+    "Id": 24,
+    "Name": "SandalesNoire",
+    "Price": 35.0,
+    "ImagePath": "C:\\\\Users\\\\sarar\\\\Downloads\\\\C#\\\\c#\\\\EasyShop\\\\images\\\\Sandales.jpg",
+    "Quantity": 10,
+    "CategoryProduct": {
+      "Id": 10,
+      "NameCat": "Sandales"
+    }
+  },
+  {
+    "imagePath": "C:\\\\Users\\\\sarar\\\\Downloads\\\\C#\\\\c#\\\\EasyShop\\\\images\\\\Pantalan.jpg",
+    "categoryProduct": {
+      "Id": 11,
+      "NameCat": "Pantalon"
+    },
+    "Id": 25,
+    "Name": "Normal",
+    "Price": 45.0,
+    "ImagePath": "C:\\\\Users\\\\sarar\\\\Downloads\\\\C#\\\\c#\\\\EasyShop\\\\images\\\\Pantalan.jpg",
+    "Quantity": 15,
+    "CategoryProduct": {
+      "Id": 11,
+      "NameCat": "Pantalon"
+    }
+  },
+  {
+    "imagePath": "C:\\\\Users\\\\sarar\\\\Downloads\\\\C#\\\\c#\\\\EasyShop\\\\images\\\\Montre.jpg",
+    "categoryProduct": {
+      "Id": 2,
+      "NameCat": "Montre"
+    },
+    "Id": 26,
+    "Name": "montreNormal",
+    "Price": 15.0,
+    "ImagePath": "C:\\\\Users\\\\sarar\\\\Downloads\\\\C#\\\\c#\\\\EasyShop\\\\images\\\\Montre.jpg",
+    "Quantity": 10,
+    "CategoryProduct": {
+      "Id": 2,
+      "NameCat": "Montre"
+    }
+  }
+]

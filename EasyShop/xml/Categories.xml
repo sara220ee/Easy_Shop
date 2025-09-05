@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfCategory xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Category>
+    <Id>8</Id>
+    <NameCat>Bague</NameCat>
+  </Category>
+  <Category>
+    <Id>5</Id>
+    <NameCat>Bijoux</NameCat>
+  </Category>
+  <Category>
+    <Id>12</Id>
+    <NameCat>Ju</NameCat>
+  </Category>
+  <Category>
+    <Id>2</Id>
+    <NameCat>Montre</NameCat>
+  </Category>
+  <Category>
+    <Id>11</Id>
+    <NameCat>Pantalon</NameCat>
+  </Category>
+  <Category>
+    <Id>7</Id>
+    <NameCat>Robe</NameCat>
+  </Category>
+  <Category>
+    <Id>10</Id>
+    <NameCat>Sandales</NameCat>
+  </Category>
+  <Category>
+    <Id>9</Id>
+    <NameCat>T-shirt</NameCat>
+  </Category>
+  <Category>
+    <Id>6</Id>
+    <NameCat>Veste</NameCat>
+  </Category>
+</ArrayOfCategory>

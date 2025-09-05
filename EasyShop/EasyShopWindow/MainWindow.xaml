@@ -1,0 +1,143 @@
+﻿<Window x:Class="EasyShopWindow.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:EasyShopWindow"
+        mc:Ignorable="d"
+        Title="EasyShop - Client" Height="600" Width="900"
+        WindowStartupLocation="CenterScreen">
+    <Window.Resources>
+        <local:StockToVisibilityConverter x:Key="StockToVisibilityConverter"/>
+        <local:StockToTextConverter x:Key="StockToTextConverter"/>
+        <Style TargetType="Button">
+            <Setter Property="Margin" Value="5"/>
+            <Setter Property="Padding" Value="8 4"/>
+            <Setter Property="Background" Value="#FF4CAF50"/>
+            <Setter Property="Foreground" Value="White"/>
+            <Setter Property="BorderThickness" Value="0"/>
+            <Setter Property="Cursor" Value="Hand"/>
+        </Style>
+        <Style TargetType="ComboBox">
+            <Setter Property="Margin" Value="5"/>
+            <Setter Property="Padding" Value="5"/>
+        </Style>
+        <Style TargetType="TextBlock">
+            <Setter Property="Margin" Value="5"/>
+        </Style>
+    </Window.Resources>
+    <Window.Background>
+        <LinearGradientBrush StartPoint="0,0" EndPoint="1,1">
+            <GradientStop Color="#FFFDFDFD" Offset="0"/>
+            <GradientStop Color="#FFE3F2FD" Offset="1"/>
+        </LinearGradientBrush>
+    </Window.Background>
+
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="Auto"/>
+        </Grid.RowDefinitions>
+
+        <Border Grid.Row="0" Background="#FF2196F3" Padding="10">
+            <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
+                <TextBlock Text="EasyShop" FontSize="24" FontWeight="Bold" Foreground="White" VerticalAlignment="Center"/>
+                <Button x:Name="LogoutButton" Content="Deconnexion" Margin="20 0 0 0" Click="LogoutButton_Click" Background="#FFf44336"/>
+            </StackPanel>
+        </Border>
+
+        <Grid Grid.Row="1">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="Auto"/>
+            </Grid.ColumnDefinitions>
+            <ScrollViewer Grid.Column="0" VerticalScrollBarVisibility="Auto">
+                <ItemsControl x:Name="ProductsItemsControl" ItemsSource="{Binding FilteredProducts}">
+                    <ItemsControl.ItemsPanel>
+                        <ItemsPanelTemplate>
+                            <WrapPanel Orientation="Horizontal" HorizontalAlignment="Center"/>
+                        </ItemsPanelTemplate>
+                    </ItemsControl.ItemsPanel>
+                    <ItemsControl.ItemTemplate>
+                        <DataTemplate>
+                            <Border Width="250" Height="300" Margin="10" BorderBrush="#DDD" BorderThickness="1" CornerRadius="5">
+                                <Grid>
+                                    <Grid.RowDefinitions>
+                                        <RowDefinition Height="150"/>
+                                        <RowDefinition Height="*"/>
+                                        <RowDefinition Height="Auto"/>
+                                    </Grid.RowDefinitions>
+                                    <Image Grid.Row="0" Source="{Binding ImagePath}" Stretch="Uniform" Margin="10"/>
+
+                                    <StackPanel Grid.Row="1" Margin="10">
+                                        <TextBlock Text="{Binding Name}" FontWeight="Bold" FontSize="16" TextWrapping="Wrap"/>
+                                        <TextBlock Text="{Binding CategoryProduct.NameCat}" Foreground="#777"/>
+                                        <TextBlock Text="{Binding Price, StringFormat={}{0:C2}}" FontSize="14" Foreground="#FF4CAF50" FontWeight="Bold"/>
+                                        <TextBlock Text="{Binding Quantity, Converter={StaticResource StockToTextConverter}}" 
+                                                   Foreground="{Binding Quantity, Converter={StaticResource StockToTextConverter}, ConverterParameter=Foreground}"/>
+                                    </StackPanel>
+
+                                    <Button Grid.Row="2" Content="Ajouter au panier" Margin="10" 
+                                            Click="AddToCart_Click"
+                                            CommandParameter="{Binding}"
+                                            Visibility="{Binding Quantity, Converter={StaticResource StockToVisibilityConverter}}"/>
+                                </Grid>
+                            </Border>
+                        </DataTemplate>
+                    </ItemsControl.ItemTemplate>
+                </ItemsControl>
+            </ScrollViewer>
+
+            <Border Grid.Column="1" Width="300" Background="#FFFAFAFA" BorderBrush="#DDD" BorderThickness="1 0 0 0">
+                <Grid>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="*"/>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                    </Grid.RowDefinitions>
+
+                    <TextBlock Grid.Row="0" Text="Votre Panier" FontSize="18" FontWeight="Bold" Margin="10" HorizontalAlignment="Center"/>
+
+                    <ListView x:Name="CartListView" Grid.Row="1" ItemsSource="{Binding Panier.Items}" Margin="5">
+                        <ListView.ItemTemplate>
+                            <DataTemplate>
+                                <Grid>
+                                    <Grid.ColumnDefinitions>
+                                        <ColumnDefinition Width="*"/>
+                                        <ColumnDefinition Width="Auto"/>
+                                    </Grid.ColumnDefinitions>
+
+                                    <StackPanel>
+                                        <TextBlock Text="{Binding Product.Name}" FontWeight="Bold"/>
+                                        <TextBlock Text="{Binding Product.Price, StringFormat={}{0:C2}}"/>
+                                        <TextBlock Text="{Binding Quantity, StringFormat=Quantité: {0}}"/>
+                                    </StackPanel>
+
+                                    <Button Grid.Column="1" Content="X" Width="25" Height="25" 
+                                            Click="RemoveFromCart_Click"
+                                            CommandParameter="{Binding}"
+                                            Background="#FFf44336" Padding="0"/>
+                                </Grid>
+                            </DataTemplate>
+                        </ListView.ItemTemplate>
+                    </ListView>
+
+                    <TextBlock Grid.Row="2" Text="{Binding Panier.Total, StringFormat=Total: {0:C2}}" FontSize="16" FontWeight="Bold" Margin="10"/>
+
+                    <StackPanel Grid.Row="3" Orientation="Horizontal" HorizontalAlignment="Center">
+                        <Button Content="Vider le panier" Click="ClearCart_Click" Background="#FFf44336"/>
+                        <Button Content="Confirmer" Click="ConfirmPurchase_Click"/>
+                    </StackPanel>
+                </Grid>
+            </Border>
+        </Grid>
+        <Border Grid.Row="2" Background="#FFF5F5F5" BorderBrush="AntiqueWhite" BorderThickness="0 1 0 0">
+            <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" Margin="10">
+                <TextBlock Text="Filtrer par categorie:" VerticalAlignment="Center"/>
+                <ComboBox x:Name="CategoryFilterComboBox" Width="200" SelectionChanged="CategoryFilterComboBox_SelectionChanged"/>
+            </StackPanel>
+        </Border>
+    </Grid>
+</Window>

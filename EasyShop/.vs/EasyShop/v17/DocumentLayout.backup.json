@@ -1,0 +1,101 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\sarar\\Downloads\\C#\\c#\\EasyShop\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{70C6C392-010E-47D9-8E15-C5A0786851AB}|EasyShopWindow\\EasyShopWindow.csproj|c:\\users\\sarar\\downloads\\c#\\c#\\easyshop\\easyshopwindow\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{70C6C392-010E-47D9-8E15-C5A0786851AB}|EasyShopWindow\\EasyShopWindow.csproj|solutionrelative:easyshopwindow\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{70C6C392-010E-47D9-8E15-C5A0786851AB}|EasyShopWindow\\EasyShopWindow.csproj|c:\\users\\sarar\\downloads\\c#\\c#\\easyshop\\easyshopwindow\\mainservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{70C6C392-010E-47D9-8E15-C5A0786851AB}|EasyShopWindow\\EasyShopWindow.csproj|solutionrelative:easyshopwindow\\mainservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{70C6C392-010E-47D9-8E15-C5A0786851AB}|EasyShopWindow\\EasyShopWindow.csproj|c:\\users\\sarar\\downloads\\c#\\c#\\easyshop\\easyshopwindow\\paniermanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{70C6C392-010E-47D9-8E15-C5A0786851AB}|EasyShopWindow\\EasyShopWindow.csproj|solutionrelative:easyshopwindow\\paniermanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{70C6C392-010E-47D9-8E15-C5A0786851AB}|EasyShopWindow\\EasyShopWindow.csproj|c:\\users\\sarar\\downloads\\c#\\c#\\easyshop\\easyshopwindow\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{70C6C392-010E-47D9-8E15-C5A0786851AB}|EasyShopWindow\\EasyShopWindow.csproj|solutionrelative:easyshopwindow\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "PanierManager.cs",
+              "DocumentMoniker": "C:\\Users\\sarar\\Downloads\\C#\\c#\\EasyShop\\EasyShopWindow\\PanierManager.cs",
+              "RelativeDocumentMoniker": "EasyShopWindow\\PanierManager.cs",
+              "ToolTip": "C:\\Users\\sarar\\Downloads\\C#\\c#\\EasyShop\\EasyShopWindow\\PanierManager.cs",
+              "RelativeToolTip": "EasyShopWindow\\PanierManager.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-24T21:15:43.425Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\sarar\\Downloads\\C#\\c#\\EasyShop\\EasyShopWindow\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "EasyShopWindow\\MainWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\sarar\\Downloads\\C#\\c#\\EasyShop\\EasyShopWindow\\MainWindow.xaml.cs",
+              "RelativeToolTip": "EasyShopWindow\\MainWindow.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-24T21:15:36.233Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\sarar\\Downloads\\C#\\c#\\EasyShop\\EasyShopWindow\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "EasyShopWindow\\MainWindow.xaml",
+              "ToolTip": "C:\\Users\\sarar\\Downloads\\C#\\c#\\EasyShop\\EasyShopWindow\\MainWindow.xaml",
+              "RelativeToolTip": "EasyShopWindow\\MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-04-24T21:15:28.863Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MainService.cs",
+              "DocumentMoniker": "C:\\Users\\sarar\\Downloads\\C#\\c#\\EasyShop\\EasyShopWindow\\MainService.cs",
+              "RelativeDocumentMoniker": "EasyShopWindow\\MainService.cs",
+              "ToolTip": "C:\\Users\\sarar\\Downloads\\C#\\c#\\EasyShop\\EasyShopWindow\\MainService.cs",
+              "RelativeToolTip": "EasyShopWindow\\MainService.cs",
+              "ViewState": "AgIAAEsAAAAAAAAAAAAowAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-24T21:15:15.409Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedHeight": 200,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

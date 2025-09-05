@@ -1,0 +1,26 @@
+[
+  {
+    "Id": 1,
+    "BirthDate": "2025-04-23T14:01:22.0564424+02:00",
+    "Name": "Sara",
+    "Email": "sara.rahmouniseddik@student.hepl.be",
+    "Password": "03ac674216f3e15c761ee1a5e255f067953623c8b388b4459e13f978d7c846f4",
+    "Address": "Espagne"
+  },
+  {
+    "Id": 2,
+    "BirthDate": "2003-11-30T00:00:00",
+    "Name": "Hind",
+    "Email": "hind.rahmouniseddik@student.hepl.be",
+    "Password": "03ac674216f3e15c761ee1a5e255f067953623c8b388b4459e13f978d7c846f4",
+    "Address": "Espagne"
+  },
+  {
+    "Id": 3,
+    "BirthDate": "2025-03-31T00:00:00",
+    "Name": "Rahmouni",
+    "Email": "rania.rahmouni@gmail.Com",
+    "Password": "03ac674216f3e15c761ee1a5e255f067953623c8b388b4459e13f978d7c846f4",
+    "Address": "Espagne"
+  }
+]

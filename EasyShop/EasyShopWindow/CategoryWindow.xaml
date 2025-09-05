@@ -1,0 +1,64 @@
+<Window x:Class="EasyShopWindow.CategoryWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Gestion des Categories" Height="450" Width="800">
+    <Window.Background>
+        <LinearGradientBrush StartPoint="0,0" EndPoint="1,1">
+            <GradientStop Color="#F0F0F0" Offset="0"/>
+            <GradientStop Color="#E5E5E5" Offset="0.3"/>
+            <GradientStop Color="#DADADA" Offset="0.7"/>
+            <GradientStop Color="#CFCFCF" Offset="1"/>
+        </LinearGradientBrush>
+    </Window.Background>
+
+    <Grid Margin="10">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+        </Grid.RowDefinitions>
+
+        <TextBlock Text="Gestion des Categories" FontSize="20" FontWeight="Bold" Foreground="#007ACC" HorizontalAlignment="Center" Margin="0,10,0,20"/>
+
+        <DataGrid x:Name="CategoriesDataGrid" 
+                  Grid.Row="1"
+                  AutoGenerateColumns="False"
+                  CanUserAddRows="False"
+                  CanUserDeleteRows="False"
+                  IsReadOnly="False"
+                  AlternatingRowBackground="#F2F9FC"
+                  RowBackground="White"
+                  HeadersVisibility="Column"
+                  BorderThickness="0"
+                  ColumnHeaderHeight="40"
+                  RowHeight="40"
+                  FontSize="14"
+                  FontFamily="Segoe UI"
+                  SelectionMode="Single"
+                  HorizontalGridLinesBrush="LightGray"
+                  VerticalGridLinesBrush="LightGray"
+                  Margin="10"
+                  ItemsSource="{Binding Categories}">
+            <DataGrid.Columns>
+                <DataGridTextColumn Header="ID" Binding="{Binding Id}" IsReadOnly="True" Width="Auto"/>
+                <DataGridTextColumn Header="Nom de la Categorie" Binding="{Binding NameCat, UpdateSourceTrigger=PropertyChanged}" Width="*"/>
+            </DataGrid.Columns>
+        </DataGrid>
+
+        <StackPanel Grid.Row="2" Orientation="Horizontal" HorizontalAlignment="Center" Margin="10">
+            <Label Content="Nom de la categorie :" VerticalAlignment="Center" Margin="5"/>
+            <TextBox x:Name="AddCategoryNameTextBox" Width="200" Height="25" Margin="5"/>
+            <Button Content="Ajouter" Click="Add_Click" Width="120" Height="40" Background="#4CAF50" Foreground="White" Margin="5"/>
+        </StackPanel>
+
+        <StackPanel Grid.Row="3" Orientation="Horizontal" HorizontalAlignment="Center" Margin="10">
+            <Label Content="ID de la categorie :" VerticalAlignment="Center" Margin="5"/>
+            <TextBox x:Name="DeleteCategoryIdTextBox" Width="100" Height="25" Margin="5"/>
+            <Button Content="Supprimer" Click="Delete_Click" Width="120" Height="40" Background="#F44336" Foreground="White" Margin="5"/>
+        </StackPanel>
+
+        <Button Grid.Row="4" Content="Retour" Click="Back_Click" Width="120" Height="40" Background="#2196F3" Foreground="White" HorizontalAlignment="Center" Margin="10"/>
+    </Grid>
+</Window>

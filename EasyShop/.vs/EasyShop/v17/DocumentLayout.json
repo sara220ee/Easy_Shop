@@ -1,0 +1,270 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\sarar\\Downloads\\C#\\c#\\EasyShop\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{11B7B076-AEF3-489D-B1D2-1F6D3FFBC2DE}|AppParamRegistry\\AppParamRegistry.csproj|c:\\users\\sarar\\downloads\\c#\\c#\\easyshop\\appparamregistry\\myappparammanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{11B7B076-AEF3-489D-B1D2-1F6D3FFBC2DE}|AppParamRegistry\\AppParamRegistry.csproj|solutionrelative:appparamregistry\\myappparammanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{73E520A1-4681-48E6-BDD1-B5529CBDAEC0}|DataPersistence\\DataPersistence.csproj|c:\\users\\sarar\\downloads\\c#\\c#\\easyshop\\datapersistence\\xmldatamanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{73E520A1-4681-48E6-BDD1-B5529CBDAEC0}|DataPersistence\\DataPersistence.csproj|solutionrelative:datapersistence\\xmldatamanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{70C6C392-010E-47D9-8E15-C5A0786851AB}|EasyShopWindow\\EasyShopWindow.csproj|c:\\users\\sarar\\downloads\\c#\\c#\\easyshop\\easyshopwindow\\paniermanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{70C6C392-010E-47D9-8E15-C5A0786851AB}|EasyShopWindow\\EasyShopWindow.csproj|solutionrelative:easyshopwindow\\paniermanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AD7238D6-9212-4403-90F3-07D9FBF8B1BE}|ClassShop\\ClassShop.csproj|c:\\users\\sarar\\downloads\\c#\\c#\\easyshop\\classshop\\cartitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AD7238D6-9212-4403-90F3-07D9FBF8B1BE}|ClassShop\\ClassShop.csproj|solutionrelative:classshop\\cartitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AD7238D6-9212-4403-90F3-07D9FBF8B1BE}|ClassShop\\ClassShop.csproj|c:\\users\\sarar\\downloads\\c#\\c#\\easyshop\\classshop\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AD7238D6-9212-4403-90F3-07D9FBF8B1BE}|ClassShop\\ClassShop.csproj|solutionrelative:classshop\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AD7238D6-9212-4403-90F3-07D9FBF8B1BE}|ClassShop\\ClassShop.csproj|c:\\users\\sarar\\downloads\\c#\\c#\\easyshop\\classshop\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AD7238D6-9212-4403-90F3-07D9FBF8B1BE}|ClassShop\\ClassShop.csproj|solutionrelative:classshop\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AD7238D6-9212-4403-90F3-07D9FBF8B1BE}|ClassShop\\ClassShop.csproj|c:\\users\\sarar\\downloads\\c#\\c#\\easyshop\\classshop\\person.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AD7238D6-9212-4403-90F3-07D9FBF8B1BE}|ClassShop\\ClassShop.csproj|solutionrelative:classshop\\person.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{70C6C392-010E-47D9-8E15-C5A0786851AB}|EasyShopWindow\\EasyShopWindow.csproj|c:\\users\\sarar\\downloads\\c#\\c#\\easyshop\\easyshopwindow\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{70C6C392-010E-47D9-8E15-C5A0786851AB}|EasyShopWindow\\EasyShopWindow.csproj|solutionrelative:easyshopwindow\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{70C6C392-010E-47D9-8E15-C5A0786851AB}|EasyShopWindow\\EasyShopWindow.csproj|c:\\users\\sarar\\downloads\\c#\\c#\\easyshop\\easyshopwindow\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{70C6C392-010E-47D9-8E15-C5A0786851AB}|EasyShopWindow\\EasyShopWindow.csproj|solutionrelative:easyshopwindow\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{70C6C392-010E-47D9-8E15-C5A0786851AB}|EasyShopWindow\\EasyShopWindow.csproj|c:\\users\\sarar\\downloads\\c#\\c#\\easyshop\\easyshopwindow\\mainservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{70C6C392-010E-47D9-8E15-C5A0786851AB}|EasyShopWindow\\EasyShopWindow.csproj|solutionrelative:easyshopwindow\\mainservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{70C6C392-010E-47D9-8E15-C5A0786851AB}|EasyShopWindow\\EasyShopWindow.csproj|c:\\users\\sarar\\downloads\\c#\\c#\\easyshop\\easyshopwindow\\loginwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{70C6C392-010E-47D9-8E15-C5A0786851AB}|EasyShopWindow\\EasyShopWindow.csproj|solutionrelative:easyshopwindow\\loginwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{70C6C392-010E-47D9-8E15-C5A0786851AB}|EasyShopWindow\\EasyShopWindow.csproj|c:\\users\\sarar\\downloads\\c#\\c#\\easyshop\\easyshopwindow\\loginservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{70C6C392-010E-47D9-8E15-C5A0786851AB}|EasyShopWindow\\EasyShopWindow.csproj|solutionrelative:easyshopwindow\\loginservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{73E520A1-4681-48E6-BDD1-B5529CBDAEC0}|DataPersistence\\DataPersistence.csproj|c:\\users\\sarar\\downloads\\c#\\c#\\easyshop\\datapersistence\\jsondatamanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{73E520A1-4681-48E6-BDD1-B5529CBDAEC0}|DataPersistence\\DataPersistence.csproj|solutionrelative:datapersistence\\jsondatamanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{70C6C392-010E-47D9-8E15-C5A0786851AB}|EasyShopWindow\\EasyShopWindow.csproj|c:\\users\\sarar\\downloads\\c#\\c#\\easyshop\\easyshopwindow\\loginwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{70C6C392-010E-47D9-8E15-C5A0786851AB}|EasyShopWindow\\EasyShopWindow.csproj|solutionrelative:easyshopwindow\\loginwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MyAppParamManager.cs",
+              "DocumentMoniker": "C:\\Users\\sarar\\Downloads\\C#\\c#\\EasyShop\\AppParamRegistry\\MyAppParamManager.cs",
+              "RelativeDocumentMoniker": "AppParamRegistry\\MyAppParamManager.cs",
+              "ToolTip": "C:\\Users\\sarar\\Downloads\\C#\\c#\\EasyShop\\AppParamRegistry\\MyAppParamManager.cs",
+              "RelativeToolTip": "AppParamRegistry\\MyAppParamManager.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-25T08:46:21.641Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "XmlDataManager.cs",
+              "DocumentMoniker": "C:\\Users\\sarar\\Downloads\\C#\\c#\\EasyShop\\DataPersistence\\XmlDataManager.cs",
+              "RelativeDocumentMoniker": "DataPersistence\\XmlDataManager.cs",
+              "ToolTip": "C:\\Users\\sarar\\Downloads\\C#\\c#\\EasyShop\\DataPersistence\\XmlDataManager.cs",
+              "RelativeToolTip": "DataPersistence\\XmlDataManager.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAxwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-25T08:45:55.958Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "CartItem.cs",
+              "DocumentMoniker": "C:\\Users\\sarar\\Downloads\\C#\\c#\\EasyShop\\ClassShop\\CartItem.cs",
+              "RelativeDocumentMoniker": "ClassShop\\CartItem.cs",
+              "ToolTip": "C:\\Users\\sarar\\Downloads\\C#\\c#\\EasyShop\\ClassShop\\CartItem.cs",
+              "RelativeToolTip": "ClassShop\\CartItem.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-25T08:44:56.08Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Category.cs",
+              "DocumentMoniker": "C:\\Users\\sarar\\Downloads\\C#\\c#\\EasyShop\\ClassShop\\Category.cs",
+              "RelativeDocumentMoniker": "ClassShop\\Category.cs",
+              "ToolTip": "C:\\Users\\sarar\\Downloads\\C#\\c#\\EasyShop\\ClassShop\\Category.cs",
+              "RelativeToolTip": "ClassShop\\Category.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-25T08:44:32.495Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Product.cs",
+              "DocumentMoniker": "C:\\Users\\sarar\\Downloads\\C#\\c#\\EasyShop\\ClassShop\\Product.cs",
+              "RelativeDocumentMoniker": "ClassShop\\Product.cs",
+              "ToolTip": "C:\\Users\\sarar\\Downloads\\C#\\c#\\EasyShop\\ClassShop\\Product.cs",
+              "RelativeToolTip": "ClassShop\\Product.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-25T08:44:29.538Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Person.cs",
+              "DocumentMoniker": "C:\\Users\\sarar\\Downloads\\C#\\c#\\EasyShop\\ClassShop\\Person.cs",
+              "RelativeDocumentMoniker": "ClassShop\\Person.cs",
+              "ToolTip": "C:\\Users\\sarar\\Downloads\\C#\\c#\\EasyShop\\ClassShop\\Person.cs",
+              "RelativeToolTip": "ClassShop\\Person.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-25T08:44:00.885Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "PanierManager.cs",
+              "DocumentMoniker": "C:\\Users\\sarar\\Downloads\\C#\\c#\\EasyShop\\EasyShopWindow\\PanierManager.cs",
+              "RelativeDocumentMoniker": "EasyShopWindow\\PanierManager.cs",
+              "ToolTip": "C:\\Users\\sarar\\Downloads\\C#\\c#\\EasyShop\\EasyShopWindow\\PanierManager.cs",
+              "RelativeToolTip": "EasyShopWindow\\PanierManager.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-25T08:37:55.551Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\sarar\\Downloads\\C#\\c#\\EasyShop\\EasyShopWindow\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "EasyShopWindow\\MainWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\sarar\\Downloads\\C#\\c#\\EasyShop\\EasyShopWindow\\MainWindow.xaml.cs",
+              "RelativeToolTip": "EasyShopWindow\\MainWindow.xaml.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-25T08:37:41.392Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\sarar\\Downloads\\C#\\c#\\EasyShop\\EasyShopWindow\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "EasyShopWindow\\MainWindow.xaml",
+              "ToolTip": "C:\\Users\\sarar\\Downloads\\C#\\c#\\EasyShop\\EasyShopWindow\\MainWindow.xaml",
+              "RelativeToolTip": "EasyShopWindow\\MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-04-25T08:37:38.678Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "MainService.cs",
+              "DocumentMoniker": "C:\\Users\\sarar\\Downloads\\C#\\c#\\EasyShop\\EasyShopWindow\\MainService.cs",
+              "RelativeDocumentMoniker": "EasyShopWindow\\MainService.cs",
+              "ToolTip": "C:\\Users\\sarar\\Downloads\\C#\\c#\\EasyShop\\EasyShopWindow\\MainService.cs",
+              "RelativeToolTip": "EasyShopWindow\\MainService.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAAwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-25T08:37:37.103Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "JsonDataManager.cs",
+              "DocumentMoniker": "C:\\Users\\sarar\\Downloads\\C#\\c#\\EasyShop\\DataPersistence\\JsonDataManager.cs",
+              "RelativeDocumentMoniker": "DataPersistence\\JsonDataManager.cs",
+              "ToolTip": "C:\\Users\\sarar\\Downloads\\C#\\c#\\EasyShop\\DataPersistence\\JsonDataManager.cs",
+              "RelativeToolTip": "DataPersistence\\JsonDataManager.cs",
+              "ViewState": "AgIAAFgAAAAAAAAAAADwvwAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-25T08:34:58.323Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "LoginWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\sarar\\Downloads\\C#\\c#\\EasyShop\\EasyShopWindow\\LoginWindow.xaml.cs",
+              "RelativeDocumentMoniker": "EasyShopWindow\\LoginWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\sarar\\Downloads\\C#\\c#\\EasyShop\\EasyShopWindow\\LoginWindow.xaml.cs",
+              "RelativeToolTip": "EasyShopWindow\\LoginWindow.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-25T08:32:50.271Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "LoginService.cs",
+              "DocumentMoniker": "C:\\Users\\sarar\\Downloads\\C#\\c#\\EasyShop\\EasyShopWindow\\LoginService.cs",
+              "RelativeDocumentMoniker": "EasyShopWindow\\LoginService.cs",
+              "ToolTip": "C:\\Users\\sarar\\Downloads\\C#\\c#\\EasyShop\\EasyShopWindow\\LoginService.cs",
+              "RelativeToolTip": "EasyShopWindow\\LoginService.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAAwCQAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-25T08:32:44.994Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "LoginWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\sarar\\Downloads\\C#\\c#\\EasyShop\\EasyShopWindow\\LoginWindow.xaml",
+              "RelativeDocumentMoniker": "EasyShopWindow\\LoginWindow.xaml",
+              "ToolTip": "C:\\Users\\sarar\\Downloads\\C#\\c#\\EasyShop\\EasyShopWindow\\LoginWindow.xaml",
+              "RelativeToolTip": "EasyShopWindow\\LoginWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-04-25T08:32:31.119Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedHeight": 200,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

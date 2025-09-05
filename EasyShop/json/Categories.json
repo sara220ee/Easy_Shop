@@ -1,0 +1,38 @@
+[
+  {
+    "Id": 8,
+    "NameCat": "Bague"
+  },
+  {
+    "Id": 5,
+    "NameCat": "Bijoux"
+  },
+  {
+    "Id": 12,
+    "NameCat": "Ju"
+  },
+  {
+    "Id": 2,
+    "NameCat": "Montre"
+  },
+  {
+    "Id": 11,
+    "NameCat": "Pantalon"
+  },
+  {
+    "Id": 7,
+    "NameCat": "Robe"
+  },
+  {
+    "Id": 10,
+    "NameCat": "Sandales"
+  },
+  {
+    "Id": 9,
+    "NameCat": "T-shirt"
+  },
+  {
+    "Id": 6,
+    "NameCat": "Veste"
+  }
+]

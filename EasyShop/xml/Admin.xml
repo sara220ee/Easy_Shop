@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfAdmin xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Admin>
+    <Id>1</Id>
+    <BirthDate>2025-04-23T14:01:22.0564424+02:00</BirthDate>
+    <Name>Sara</Name>
+    <Email>sara.rahmouniseddik@student.hepl.be</Email>
+    <Password>03ac674216f3e15c761ee1a5e255f067953623c8b388b4459e13f978d7c846f4</Password>
+    <Address>Espagne</Address>
+  </Admin>
+  <Admin>
+    <Id>2</Id>
+    <BirthDate>2003-11-30T00:00:00</BirthDate>
+    <Name>Hind</Name>
+    <Email>hind.rahmouniseddik@student.hepl.be</Email>
+    <Password>03ac674216f3e15c761ee1a5e255f067953623c8b388b4459e13f978d7c846f4</Password>
+    <Address>Espagne</Address>
+  </Admin>
+  <Admin>
+    <Id>3</Id>
+    <BirthDate>2025-03-31T00:00:00</BirthDate>
+    <Name>Rahmouni</Name>
+    <Email>rania.rahmouni@gmail.Com</Email>
+    <Password>03ac674216f3e15c761ee1a5e255f067953623c8b388b4459e13f978d7c846f4</Password>
+    <Address>Espagne</Address>
+  </Admin>
+</ArrayOfAdmin>

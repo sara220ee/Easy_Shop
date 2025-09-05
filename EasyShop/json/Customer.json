@@ -1,0 +1,50 @@
+[
+  {
+    "Id": 1,
+    "BirthDate": "2000-10-24T00:00:00",
+    "Name": "sara",
+    "Email": "sara.rahmouni@gmail.com",
+    "Password": "3a6d64c24cf80b69ccda37650406467e8266667b50cfd0b984beb3651b129ed7",
+    "Address": "Maroc"
+  },
+  {
+    "Id": 2,
+    "BirthDate": "2024-11-30T00:00:00",
+    "Name": "hind",
+    "Email": "hind.rahmouni@gmail.com",
+    "Password": "145933e16cf2bb0ef45d74dbb7187f06219316dbcfb3d282c020772e1a80a340",
+    "Address": "Maroc"
+  },
+  {
+    "Id": 3,
+    "BirthDate": "1998-09-13T00:00:00",
+    "Name": "rania",
+    "Email": "rania.rahmouni@gmail.com",
+    "Password": "760da8335e0a4744e99ec6aee79a1e6fee7519a82cd245b1d8e9f95ed8704eb8",
+    "Address": "MAroc"
+  },
+  {
+    "Id": 4,
+    "BirthDate": "2025-02-25T00:00:00",
+    "Name": "Malika",
+    "Email": "malika.seddik@student.hepl.be",
+    "Password": "2272e447351c19910452c96423c964396421c4e8d947b63f4291fc42a28b924d",
+    "Address": "Maroc"
+  },
+  {
+    "Id": 5,
+    "BirthDate": "2025-04-01T00:00:00",
+    "Name": "sara",
+    "Email": "sara.seddik@student.hepl.be",
+    "Password": "03ac674216f3e15c761ee1a5e255f067953623c8b388b4459e13f978d7c846f4",
+    "Address": "Espagne"
+  },
+  {
+    "Id": 6,
+    "BirthDate": "2025-04-01T00:00:00",
+    "Name": "sara",
+    "Email": "sara.rahmouniseddik@gmail.com",
+    "Password": "34d1283dd5ddc95c54f829adde207e9a7aba545f53989c4a361fa4b936cd573a",
+    "Address": "Espagne"
+  }
+]
